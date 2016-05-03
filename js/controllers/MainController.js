@@ -2,13 +2,14 @@
 
 app.controller('MainController', ['$scope', '$window', function($scope, $window) {
   var en = {
-    'brand': 'chuah48263\'s Personal Page',
+    'brand': 'shian48263\'s Personal Page',
     'home': 'Home',
     'about': 'About',
     'portfolio': 'Portfolio',
     'contact': 'Contact',
-    'title': 'A Fullstack Developer',
-    'desc': 'Who Made Foolish by Curiosity and Wonders.',
+    'title1': 'Data Scientist',
+    'title2': 'Full Stack Web Developer',
+    'desc': 'Who Explores the World\'s Awesomeness with Curiosity and Wonders',
     'aboutMe': 'Chuah Chee Shian (aka Shian)',
     'resume': '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I\'m a self-taught web developer and designer, also a Malaysian currently resides in Taiwan. After realizing promisingly that my field of interest is not medicine course which I studied in university, but web development which I engaged in since junior high school, I\'m now back on track as a temporary dropout of NTU. My passion is to use technology-based solutions to help solve real-world challenges as breakthroughs, albeit within simplicity.\n\nCompetencies & Skills:\n\tLanguages & Frameworks: JavaScript, HTML5, CSS3, Sass, jQuery, Bootstrap, AngularJS, Node.js, Express.js, MongoDB, Bash\n\tTools & Expertise: Git, Heroku, Responsive Web Design, Web App, Hybrid App, PhoneGap, Agile, Bower, Npm, Grunt, Yeoman, Cloud9, Travis CI, AJAX, Apiary, Postman, Linux, UNIX, Test Automation, Regex, Google Analytics, Startup\n\tLearning & Practising: ReactJS, Gulp',
     'works': 'Recent Works',
@@ -18,13 +19,14 @@ app.controller('MainController', ['$scope', '$window', function($scope, $window)
     'licensePost': ' License.'
   };
   var zh = {
-    'brand': 'chuah48263 個人專頁',
+    'brand': 'shian48263 個人專頁',
     'home': '首頁',
     'about': '關於',
     'portfolio': '作品',
     'contact': '聯絡',
-    'title': '全端工程師',
-    'desc': '一位對世界充滿好奇的傻蛋。',
+    'title1': '全端網頁工程師',
+    'title2': '數據科學家',
+    'desc': '一位對世界充滿好奇心的探索者',
     'aboutMe': '蔡奇賢（阿賢）',
     'resume': '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我是一名自學起家的全端網頁程式設計工程師和設計師，也是一名目前居住於台灣的馬來西亞人。自從非常堅定自己對大學所念的醫學系完全沒興趣以後，我決意從台大休學來從事我從國中就開始學習的網頁程式設計。我特別熱衷於使用現有的最新科技和技術來簡單地解決現實世界所面臨的問題和挑戰，以便達到創新和突破。\n\n能力 & 技術：\n\t語言 & 框架：JavaScript、HTML5、CSS3、jQuery、Bootstrap、AngularJS、Node.js、Express.js、MongoDB、Bash\n\t工具 & 其他：Git、Heroku、Responsive Web Design、Web App、Hybrid App、PhoneGap、Bower、Npm、Agile、Grunt、Yeoman、Cloud9、Travis CI、AJAX、Apiary、Postman、Linux、UNIX、Test Automation、Regex、Google Analytics、Startup\n\t學習 & 練習中：ReactJS、Gulp',
     'works': '最近作品',
@@ -75,12 +77,12 @@ app.controller('MainController', ['$scope', '$window', function($scope, $window)
       //   'desc': 'Wikipedia Viewer'
   }];
   var href = {
-    'twitter': 'https://twitter.com/chuah48263',
-    'github': 'https://github.com/chuah48263',
-    'linkedin': 'https://www.linkedin.com/in/chuah48263',
-    'facebook': 'https://www.facebook.com/chuah48263',
+    'twitter': 'https://twitter.com/shian48263',
+    'github': 'https://github.com/shian48263',
+    'linkedin': 'https://www.linkedin.com/in/shian48263',
+    'facebook': 'https://www.facebook.com/shian48263',
     'google+': 'https://plus.google.com/113420689322929422099',
-    'freecodecamp': 'http://www.freecodecamp.com/chuah48263',
+    'freecodecamp': 'http://www.freecodecamp.com/shian48263',
     'mit': 'https://opensource.org/licenses/MIT'
   };
   $scope.href = function(src) {
