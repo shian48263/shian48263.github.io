@@ -1,0 +1,69 @@
+{
+  "name": "chuah48263",
+  "homepage": "http://chuah48263.github.io",
+  "authors": [
+    "chuah48263 (Chuah Chee Shian / 蔡奇賢) @ chuah48263@gmail.com / chuah48263@icloud.com"
+  ],
+  "description": "Personal portfolio／résumé of Chuah Chee Shian (chuah48263), fullstack JavaScript web dev／engineer. JavaScript全端網頁工程師(蔡奇賢)的個人專頁／履歷。",
+  "main": "index.html, js/main.js, js/app.js, js/controllers/MainController.js, css/main.css",
+  "moduleType": [],
+  "keywords": ["mean", "mean stack", "node", "node.js", "mongo", "mongodb",
+    "html", "css", "sass", "git", "express", "express.js", "angular.js",
+    "angular", "personal", "resume", "résumé", "portfolio",
+    "Chuah Chee Shian", "chuah48263", "fullstack", "frontend", "backend",
+    "javascript", "web", "dev", "developer", "engineer", "全端", "全棧", "前端",
+    "後端", "網頁", "工程師", "開發", "開發者", "蔡奇賢", "個人", "專頁", "履歷"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.4.0",
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.7",
+    "angular-sanitize": "~1.4.7",
+    "fullpage.js": "~2.7.4",
+    "WebFont-OpenSans": "webfont-opensans#~0.0.2"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.min.js",
+        "dist/css/bootstrap.min.css"
+      ]
+    },
+    "fullpage.js": {
+      "main": [
+        "jquery.fullPage.min.js",
+        "jquery.fullPage.css"
+      ]
+    },
+    "jquery": {
+      "main": [
+        "dist/jquery.min.js"
+      ]
+    },
+    "angular": {
+      "main": [
+        "angular.min.js"
+      ]
+    },
+    "angular-sanitize": {
+      "main": [
+        "angular-sanitize.min.js"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.min.css"
+      ]
+    }
+  }
+}
