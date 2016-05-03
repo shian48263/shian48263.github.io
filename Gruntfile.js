@@ -60,7 +60,7 @@ module.exports = function(grunt) {
         src: './'
       },
       prod: {
-        site: 'http://chuah48263.bitballoon.com'
+        site: 'http://shian48263.bitballoon.com'
       }
     }
   });
