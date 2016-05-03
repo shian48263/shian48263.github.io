@@ -16,7 +16,7 @@ app.controller('MainController', ['$scope', '$window', function($scope, $window)
     'contactMe': 'Contact Me',
     'name': 'Chuah Chee Shian',
     'licensePre': 'Code licensed under the ',
-    'licensePost': ' License.'
+    'licensePost': ' License'
   };
   var zh = {
     'brand': 'shian48263 個人專頁',
@@ -33,7 +33,7 @@ app.controller('MainController', ['$scope', '$window', function($scope, $window)
     'contactMe': '聯絡我',
     'name': '蔡奇賢',
     'licensePre': '程式碼依 ',
-    'licensePost': ' 條款授權。'
+    'licensePost': ' 條款授權'
   };
   $scope.portfolios = [{
     'src': 'assets/img/3MqnsHC.jpg',
