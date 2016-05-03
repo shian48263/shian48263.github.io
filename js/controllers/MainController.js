@@ -24,7 +24,7 @@ app.controller('MainController', ['$scope', '$window', function($scope, $window)
     'about': '關於',
     'portfolio': '作品',
     'contact': '聯絡',
-    'title1': '全端網頁工程師',
+    'title1': '全端網頁開發者',
     'title2': '數據科學家',
     'desc': '一位對世界充滿好奇心的探索者',
     'aboutMe': '蔡奇賢（阿賢）',
