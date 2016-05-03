@@ -11,7 +11,7 @@ app.controller('MainController', ['$scope', '$window', function($scope, $window)
     'title2': 'Full Stack Web Developer',
     'desc': 'Who Explores the World\'s Awesomeness with Curiosity and Wonders',
     'aboutMe': 'Chuah Chee Shian (aka Shian)',
-    'resume': '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I\'m a self-taught web developer and designer, also a Malaysian currently resides in Taiwan. After realizing promisingly that my field of interest is not medicine course which I studied in university, but web development which I engaged in since junior high school, I\'m now back on track as a temporary dropout of NTU. My passion is to use technology-based solutions to help solve real-world challenges as breakthroughs, albeit within simplicity.\n\nCompetencies & Skills:\n\tLanguages & Frameworks: JavaScript, HTML5, CSS3, Sass, jQuery, Bootstrap, AngularJS, Node.js, Express.js, MongoDB, Bash\n\tTools & Expertise: Git, Heroku, Responsive Web Design, Web App, Hybrid App, PhoneGap, Agile, Bower, Npm, Grunt, Yeoman, Cloud9, Travis CI, AJAX, Apiary, Postman, Linux, UNIX, Test Automation, Regex, Google Analytics, Startup\n\tLearning & Practising: ReactJS, Gulp',
+    'resume': 'I\'m a self-taught web developer and data scientist, also a Malaysian currently resides in Taiwan. After realizing determinately that my field of interest is not medicine which I studied in university, but programming which I engaged in since junior high school, I\'m now back on track as a dropout of NTU. My passion is to use technology-based solutions to help solve real-world challenges as breakthroughs, albeit within simplicity.\n\nCompetencies & Skills:\n\tLanguages & Frameworks: Python, ES6, HTML5, CSS3, SASS, SCSS, Bootstrap, jQuery, AngularJS, Node, Express, Socket, bluebird, MongoDB, SQL, Markdown, Bash\n\tTools & Expertise: Git, GitHub, BitBucket, AWS, Heroku, mLab, Cloud9, Responsive Web Design, Web App, Cordova, Ionic, Electron, Grunt, gulp, tmux, vim, Sublime Text, Postman, Wireshark, D3, Chart, Yeoman, Google Analytics, Docker, Vagrant, VirtualBox, IRC, Slack, Gitter, Trello, Screenhero, Agile, Chrome Developer Tools, REPL, OS X, Ubuntu, Debian, MongoDB, SQLite, PostgreSQL, Numpy, SciPy, SymPy, pandas, matplotlib, Seaborn, Basemap, scikit-learn, Jupyter, Hadoop, Spark, MapReduce\n\tLearning & Improving: vim, gulp, ReactJS, D3, Spark, Hadoop, Redshift, R, Facebook Ads',
     'works': 'Recent Works',
     'contactMe': 'Contact Me',
     'name': 'Chuah Chee Shian',
@@ -28,7 +28,7 @@ app.controller('MainController', ['$scope', '$window', function($scope, $window)
     'title2': '數據科學家',
     'desc': '一位對世界充滿好奇心的探索者',
     'aboutMe': '蔡奇賢（阿賢）',
-    'resume': '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我是一名自學起家的全端網頁程式設計工程師和設計師，也是一名目前居住於台灣的馬來西亞人。自從非常堅定自己對大學所念的醫學系完全沒興趣以後，我決意從台大休學來從事我從國中就開始學習的網頁程式設計。我特別熱衷於使用現有的最新科技和技術來簡單地解決現實世界所面臨的問題和挑戰，以便達到創新和突破。\n\n能力 & 技術：\n\t語言 & 框架：JavaScript、HTML5、CSS3、jQuery、Bootstrap、AngularJS、Node.js、Express.js、MongoDB、Bash\n\t工具 & 其他：Git、Heroku、Responsive Web Design、Web App、Hybrid App、PhoneGap、Bower、Npm、Agile、Grunt、Yeoman、Cloud9、Travis CI、AJAX、Apiary、Postman、Linux、UNIX、Test Automation、Regex、Google Analytics、Startup\n\t學習 & 練習中：ReactJS、Gulp',
+    'resume': '我是一名自學起家的網頁開發者和數據科學家，也是一名現居於台灣的馬來西亞人。自從非常堅定自己對大學所念的醫學系完全沒興趣以後，我決意從台大輟學來從事我從國中開始就非常熱愛的程式設計。我特別熱衷於使用現有最新的科技和技術來簡單地解決現實世界所面臨的問題和挑戰，以便達到創新和突破。\n\n能力 & 技術：\n\t語言 & 框架：Python, ES6, HTML5, CSS3, SASS, SCSS, Bootstrap, jQuery, AngularJS, Node, Express, Socket, bluebird, MongoDB, SQL, Markdown, Bash\n\t工具 & 其他：Git, GitHub, BitBucket, AWS, Heroku, mLab, Cloud9, Responsive Web Design, Web App, Cordova, Ionic, Electron, Grunt, gulp, tmux, vim, Sublime Text, Postman, Wireshark, D3, Chart, Yeoman, Google Analytics, Docker, Vagrant, VirtualBox, IRC, Slack, Gitter, Trello, Screenhero, Agile, Chrome Developer Tools, REPL, OS X, Ubuntu, Debian, MongoDB, SQLite, PostgreSQL, Numpy, SciPy, SymPy, pandas, matplotlib, Seaborn, Basemap, scikit-learn, Jupyter, Hadoop, Spark, MapReduce\n\t學習 & 加強：vim, gulp, ReactJS, D3, Spark, Hadoop, Redshift, R, Facebook Ads',
     'works': '最近作品',
     'contactMe': '聯絡我',
     'name': '蔡奇賢',
@@ -82,7 +82,6 @@ app.controller('MainController', ['$scope', '$window', function($scope, $window)
     'linkedin': 'https://www.linkedin.com/in/shian48263',
     'facebook': 'https://www.facebook.com/shian48263',
     'google+': 'https://plus.google.com/113420689322929422099',
-    'freecodecamp': 'http://www.freecodecamp.com/shian48263',
     'mit': 'https://opensource.org/licenses/MIT'
   };
   $scope.href = function(src) {
