@@ -36,13 +36,15 @@ body {
     color: #cccccc;
     border-color: #cccccc;
     transition: 0.2s;
-    box-shadow: none; }
+    box-shadow: none;
+    outline: 0; }
   .navbar button.active, .navbar button.active:hover, .navbar button.active:focus, .navbar button.active:active, .navbar button.active:hover:active, .navbar button.active:hover:focus, .navbar button.active:focus:active, .navbar button.active:hover:focus:active {
     background-color: #f2f2f2;
     color: #333333;
     border-color: white;
     cursor: text;
-    box-shadow: none; }
+    box-shadow: none;
+    outline: 0; }
 
 .jumbotron {
   min-height: 100%;
